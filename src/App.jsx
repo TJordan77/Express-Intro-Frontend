@@ -6,6 +6,10 @@ import TaskList from "./components/TaskList";
 import AddTask from "./components/AddTask";
 import NavBar from "./components/NavBar";
 
+
+const BASE_URL = "https://sequelize-intro-starting-point-brown.vercel.app";
+
+
 const App = () => {
   const [navBarSetting, setNavBarSetting] = useState("All Tasks");
   const [tasks, setTasks] = useState([]);
