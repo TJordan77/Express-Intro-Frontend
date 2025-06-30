@@ -2,6 +2,8 @@ import React from "react";
 import axios from "axios";
 import "./TaskCardStyles.css";
 
+import { BASE_URL } from "../App";
+
 const TaskCard = ({ task, fetchAllTasks }) => {
   const handleCompleteTask = async () => {
     try {
