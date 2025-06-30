@@ -2,9 +2,11 @@
   "name": "ttp-react-forms",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://TJordan77.github.io/express-intro-frontend",
   "scripts": {
     "start": "webpack --mode production",
     "start-dev": "webpack serve --mode development --open"
+    "deploy": "webpack --mode production && gh-pages -d docs"
   },
   "keywords": [],
   "author": "",
