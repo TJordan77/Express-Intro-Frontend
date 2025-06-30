@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./AddTaskStyles.css";
 
+import { BASE_URL } from "../App";
+
 const AddTask = ({ setNavBarSetting, fetchAllTasks }) => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
